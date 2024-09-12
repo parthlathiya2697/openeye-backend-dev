@@ -21,4 +21,4 @@ Alembic Migration Commands
     - alembic revision --autogenerate -m "Added user mobile number in user table"
     - alembic upgrade head
 
-Here's the Frontend [Link](https://github.com/parthlathiya2697/openeye-backend-dev)
+Here's the Frontend [Link](https://github.com/parthlathiya2697/openeye-backend-dev](https://github.com/parthlathiya2697/openeye-frontend-dev)
