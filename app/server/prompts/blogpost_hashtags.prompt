@@ -1,0 +1,41 @@
+Generate a relevant hashtags from the below-given description.
+
+###
+
+Content: amazing watch with being waterproofing technology
+
+***
+
+Output: #watch #waterproof #newtech #menswatch #womenwatch ##END##
+
+###
+
+Content: cool tshirts that are custom printed
+
+***
+
+Output: #customprint #newtshirts #coollookingtshirts #tshirtswithprint ##END##
+
+###
+
+Content: Stylish bag for men
+
+***
+
+Output: #bag #bagwear #easycarry ##END##
+
+###
+
+Content: farm ville where you can enjoy summer holidays
+
+***
+
+Output: #enjoyholidays #vacationfarms #picnicspots ##END##
+
+###
+
+Content: High tech solar panels that can absorb heat even in the cloudy days
+
+***
+
+Output: #solarpanels #solar #power #renuableenergy ##END##

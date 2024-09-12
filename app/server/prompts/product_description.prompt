@@ -1,0 +1,51 @@
+Generate a catchy product description from the below-given product name and product characteristics:
+
+###
+
+Content: 
+Name: FlashCharge flashlight
+Characteristics: multi-color, LED
+
+***
+
+Output:  You know what's sucky about regular flashlights? They only come in two colors: white or that yellowish-white that reminds us of the teeth of an avid coffee drinker. What fun is that kind of flashlight? We'll answer that: NO FUN AT ALL. You know what is fun? Using the Multi-Color LED Flashlight to cast a sickly green glow over your face while telling a zombie story around a campfire. No campfire? Make a fake one with the orange light!##END##
+
+###
+
+Content: 
+Name: gel hand wash - HOLIDAY
+Characteristics: festive fragrances, natural, clean and soft hands
+
+***
+
+Output: Sometimes the scent of seasonal hand wash is all we need to rouse our holiday spirits. Available in an array of festive fragrances, our naturally derived gel hand wash will leave your hands soft, clean, and ready to be tucked into a pair of fair isle mittens. It really is the most wonderful time of the year.##END##
+
+###
+
+Content: 
+Name: Kiehl’s Ultra Facial Cream
+Characteristics: super-hydrating, soft and comfortable skin
+
+***
+
+Output: This super-hydrating face cream combats dry skin by continuously drawing in moisture from the air throughout the day. Even in extreme weather conditions, you’ll swap dry flakes and rough patches for smooth, soft, and comfortable skin.##END##
+
+###
+
+Content: 
+Name: Oil-Free Moisturizer with SPF 30
+Characteristics: SPF 30 for sun protection, Lightweight formula, Non-greasy, Does not throw shade
+
+***
+
+Output: The dream scenario: you moisturize and protect your face from the sun in one easy step. Our Oil-Free Moisturizer with SPF 30 fits easily into your routine by combining hydrating and SPF benefits into one quick-absorbing lotion that won’t leave your skin feeling greasy, oily, or shiny.##END##
+
+###
+
+Content: 
+Name: L'Oreal Paris Excellence Crème Hair Dye
+Characteristics: permanent hair dye, rich and long-lasting hair color, up to 100% grey hair coverage
+
+***
+
+Output:  L'Oreal Paris Excellence Crème Hair Dye provides rich, long-lasting color with up to 100% grey hair coverage. The permanent hair dye leaves your hair looking and feeling healthy, with a glossy, natural-looking finish.##END##

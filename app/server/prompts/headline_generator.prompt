@@ -1,0 +1,48 @@
+Generate a headline from the below-given description.:
+
+###
+
+Content: The Art of the Possible: See a platform deep-dive into our latest tools
+What’s Coming: Hear from our Product Lead on exciting features to come
+A Secure Platform: Learn about our security standards and newest deployment option
+Live Q&A.
+
+***
+
+Output: Get a sneak peak of our newest features.##END##
+
+###
+
+Content: Wow! What an incredible journey we have been on as a community. We here at Plotaverse want to start by saying THANK YOU for all of the beautiful creations you have produced on the app. You have consistently inspired us and now it is our turn to inspire you!
+
+***
+
+Output: Plotaverse is launching a new contest inspired by YOU!##END##
+
+###
+
+Content: You are receiving this mailer because your email ID is registered for receiving marketing communications from your previous interactions with our Tata Neu brands. If you have any questions regarding this, please visit our privacy policy.
+
+***
+
+Output: Get the latest news and offers from Tata Neu.##END##
+
+###
+
+Content: Good communication skills of the person help him immensely while answering those critical interview questions. The good non-verbal communication skills of an interviewee give the interviewer the feeling about the attitude and the etiquette of the interviewee.
+
+***
+
+Output: Get marketing communication from Tata Neu.##END##
+
+###
+
+Content: This is for fresh job seekers who want to learn and become a Full Stack developers.
+
+We assure that you will be able to make it through this job with salary up to 20 LPA CTC.
+
+The job market has seen a surge in the number of jobs that require coding skills and this program will guide you to a job in a top company.
+
+***
+
+Output: Learn from Experienced Developers and Make it Through the Job Market.##END##

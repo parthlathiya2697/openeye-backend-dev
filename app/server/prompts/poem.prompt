@@ -1,0 +1,71 @@
+Generate a creative poem from the below-given keywords.:
+
+###
+
+Content: elephant, telephone
+
+***
+
+Output: Once there was an elephant,
+Who tried to use the telephant—
+No! No! I mean an elephone
+Who tried to use the telephone—
+
+(Dear me! I am not certain quite
+That even now I’ve got it right.)
+Howe’er it was, he got his trunk
+Entangled in the telephunk;
+
+The more he tried to get it free,
+The louder buzzed the telephee—
+(I fear I’d better drop the song
+Of elephop and telephong!)##END##
+
+###
+
+Content: Crocodiles, it's jaws and its crawl
+
+***
+
+Output: How doth the little crocodile
+Improve his shining tail,
+And pour the waters of the Nile
+On every golden scale!
+How cheerfully he seems to grin,
+How neatly spreads his claws,
+And welcomes little fishes in,
+With gently smiling jaws!##END##
+
+###
+
+Content: purple cow
+
+***
+
+Output: I never saw a purple cow,
+I never hope to see one,
+But I can tell you, anyhow,
+I’d rather see than be one!##END##
+
+###
+
+Content: the forests and the neighbours
+
+***
+
+Output: The forest is the town of trees
+Where they live quite at their ease,
+With their neighbors at their side
+Just as we in cities wide.##END##
+
+###
+
+Content: dog jumped over the moon as a result of playing some sport
+
+***
+
+Output: Hey diddle diddle,
+The Cat and the fiddle,
+The Cow jumped over the moon,
+The little Dog laughed to see such sport,
+And the Dish ran away with the Spoon.##END##

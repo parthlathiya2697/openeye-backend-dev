@@ -1,0 +1,126 @@
+[
+  {
+    "email": "test.user1@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "James Smith",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "4242424242424242"
+  },
+  {
+    "email": "test.user2@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "Michael Smith",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "4000056655665556"
+  },
+  {
+    "email": "test.user3@example.com",
+    "password": "test_users",
+    "sign_in_provider": "facebook.com",
+    "display_name": "Robert Smith",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "5555555555554444"
+  },
+  {
+    "email": "test.user4@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "Maria Garcia",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "2223003122003222"
+  },
+  {
+    "email": "test.user5@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "David Smith",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "5200828282828210"
+  },
+  {
+    "email": "test.user6@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "Maria Rodriguez",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "5105105105105100"
+  },
+  {
+    "email": "test.user7@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "Mary Smith",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "378282246310005"
+  },
+  {
+    "email": "test.user8@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "Maria Hernandez",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "371449635398431"
+  },
+  {
+    "email": "test.user9@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "Maria Martinez",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "6011111111111117",
+    "appsumo": "11111111",
+    "dealify": "22222222"
+  },
+  {
+    "email": "test.user10@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "James Johnson",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "",
+    "stack_social": "33333333"
+  },
+  {
+    "email": "test.user11@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "Mia Yang",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "",
+    "appsumo": "44444444",
+    "stack_social": "55555555"
+  },
+  {
+    "email": "test.user12@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "Leonie Green",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "",
+    "dealify": "66666666"
+  },
+  {
+    "email": "test.user13@example.com",
+    "password": "test_users",
+    "sign_in_provider": "password",
+    "display_name": "Peter White",
+    "photo_url": "http://www.example.com/12345678/photo.png",
+    "disabled": false,
+    "card_number": "",
+    "appsumo": "77777777"
+  }
+]

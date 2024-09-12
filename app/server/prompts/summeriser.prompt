@@ -1,0 +1,42 @@
+Summarise the below-given Content in one to two lines:
+
+###
+
+Content: Purely extractive summaries often times give better results compared to automatic abstractive summaries. This is because of the fact that abstractive summarization methods cope with problems such as semantic representation,
+inference and natural language generation which is relatively harder than data-driven approaches such as sentence extraction.
+
+***
+
+Output: Automatic abstractive summarization methods are not as good as data-driven approaches for summarization.##END##
+
+###
+
+Content:  Learn how to do text summarization using Python. Download the Text Summarization Python environment, import the text to be summarized, build, test and run the routine to summarize the text.
+
+***
+
+Output: This article provides a guide on how to summarize text using the Python programming language.##END##
+
+###
+
+Content: This tutorial will walk you through a simple text summarization task. We’ll use Abstractive Text Summarization and packages like newspeper2k and PyPDF2 to convert the text into a format that Python understands. Finally, we’ll use SPaCy to summarize the text with deep learning. Once you understand how text summarization works, you can also try doing the same with audio files that need to be first transcribed to text.
+
+***
+
+Output: This tutorial will walk you through a simple text summarization task using deep learning.##END##
+
+###
+
+Content: The quality, type, and density of information conveyed via text varies from source to source. Textbooks tend to be low in density but high in quality, while academic articles are high in both quality and density. On the other hand, news articles can vary significantly from source to source. 
+
+***
+
+Output: The quality, type, and density of information conveyed via text varies from source to source.##END##
+
+###
+
+Content: Maximizing your efficiency by minimizing the time you spend reading can have a dramatic impact on productivity. Whether you’re reading textbooks, reports, or academic journals, the power of natural language processing with Python and SpaCy can reduce the time you spend without diluting the quality of information.
+
+***
+
+Output: By using natural language processing with Python and SpaCy, you can reduce the time you spend reading while still getting the information you need.##END##

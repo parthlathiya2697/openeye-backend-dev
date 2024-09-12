@@ -1,0 +1,697 @@
+{
+	"info": {
+		"_postman_id": "6ff09802-aa01-4b67-bbe8-200d5bc2edf4",
+		"name": "Article_Automator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Completion with Fewshots",
+			"item": [
+				{
+					"name": "Rephrase",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"content\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/rephrase",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"rephrase"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Summerizer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"content\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/summeriser",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"summeriser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Email Writer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"content\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/email_writer",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"email_writer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Tagline Generation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"content\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/tagline_generator",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"tagline_generator"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Blogpost Outline",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"topic\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/blogpost_outline",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"blogpost_outline"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Blogpost Hashtage",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"description\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/blogpost_hashtages",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"blogpost_hashtages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headline Generator",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"description\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/headline_generator",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"headline_generator"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product Description",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"product_name\": \"string\",\n  \"product_characteristics\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/product_description",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"product_description"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Creative Story",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"story\": \"string\",\n  \"title\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/creative_story",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"creative_story"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Poem",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"words\": \"string\",\n  \"title\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/poem",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"poem"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sentence Expander",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"sentence\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_instructions/sentence_expander",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_instructions",
+								"sentence_expander"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Completion with Instructions",
+			"item": [
+				{
+					"name": "Rephrase",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"content\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/rephrase",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"rephrase"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Summerizer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"content\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/summeriser",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"summeriser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Email Writer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"content\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/email_writer",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"email_writer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Tagline Generation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"content\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/tagline_generator",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"tagline_generator"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Blogpost Outline",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"topic\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/blogpost_outline",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"blogpost_outline"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Blogpost Hashtage",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"description\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/blogpost_hashtages",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"blogpost_hashtages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headline Generator",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"description\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/headline_generator",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"headline_generator"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product Description",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"product_name\": \"string\",\n  \"product_characteristics\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/product_description",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"product_description"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Creative Story",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"story\": \"string\",\n  \"title\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/creative_story",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"creative_story"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Poem",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"words\": \"string\",\n  \"title\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/poem",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"poem"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sentence Expander",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"engine\": \"text-ada-001\",\n  \"inference_parameters\": {\n    \"temperature\": 0.7,\n    \"max_tokens\": 200,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0.4,\n    \"presence_penalty\": 0.2,\n    \"stop\": [\n      \"\\n\\n***\\n\\n\",\n      \"\\n\\n###\\n\\n\",\n      \"##END##\"\n    ]\n  },\n  \"sentence\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}:{{port}}/automation/v1/completions_fewshots/sentence_expander",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"automation",
+								"v1",
+								"completions_fewshots",
+								"sentence_expander"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}:{{port}}/",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
